@@ -76,11 +76,22 @@ Executar as bibliotecas do Node.js
 npm run dev
 ```
 
-
 Iniciar o projeto criado com laravel(caso não utilize o Herd);
 ```
 php artisan serve
 ```
+
+Criar Controller com php artisan
+```
+php artisan make:controller CursoController
+```
+
+Criar View com php artisan
+```
+php artisan make:view cursos.index
+```
+(o curso seria o diretorio e o index o arquivo, faz assim quando não se tem o diretorio criado)
+
 
 
 ## Autor
