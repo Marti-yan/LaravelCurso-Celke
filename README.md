@@ -4,6 +4,7 @@
 * Composer - Conferir a instalação: composer --version
 * Node.js 22 ou superior - Conferir a versão: node -v
 * GIT - Conferir se está instalado o GIT: git -v
+* MySQL 8.0 ou superior - conferir versão: mysql --version
 
 ## Como rodar o projeto baixado
 
@@ -37,6 +38,11 @@ Executar as bibliotecas do Node.js
 Gerar a chave no arquivo .env.
 ```
     php artisan key:generate
+```
+
+Executar as migrations para criar as tabelas e as colunas.
+```
+    php artisan migrate
 ```
 
 Iniciar o projeto criado com Laravel. (Caso não use o Herd)
