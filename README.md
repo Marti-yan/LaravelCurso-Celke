@@ -14,6 +14,16 @@ Instalar as dependências do PHP.
 composer install
 ```
 
+Instalar as dependências do Node.js
+```
+npm install
+```
+
+Executar as bibliotecas do Node.js
+```
+npm run dev
+```
+
 Gerar a chave no arquivo .env.
 ```
 php artisan key:generate
@@ -31,11 +41,6 @@ http://127.0.0.1:8000
 
 ## Sequência para criar o projeto do zero
 
-Criar o projeto com Laravel (Modo simples, rapido)
-```
-UTILIZADO NO CODIGO: composer create-project laravel/laravel .
-```
-
 Criar o projeto com Laravel (Modo completo);
 - Stack de autenticação;
 - Banco de dados;
@@ -49,6 +54,34 @@ composer global require laravel/installer
 ```
 laravel new nome-do-projeto
 ```
+
+
+# Criar o projeto com Laravel (Modo simples, rapido)
+```
+UTILIZADO NO CODIGO: composer create-project laravel/laravel .
+```
+
+Instalar as dependências do PHP.
+```
+composer install
+```
+
+Instalar as dependências do Node.js
+```
+npm install
+```
+
+Executar as bibliotecas do Node.js
+```
+npm run dev
+```
+
+
+Iniciar o projeto criado com laravel(caso não utilize o Herd);
+```
+php artisan serve
+```
+
 
 ## Autor
 
